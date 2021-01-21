@@ -1142,7 +1142,7 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
-"@types/jszip@^3.1.4":
+"@types/jszip@^3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@types/jszip/-/jszip-3.4.1.tgz#e7a4059486e494c949ef750933d009684227846f"
   integrity sha512-TezXjmf3lj+zQ651r6hPqvSScqBLvyPI9FxdXBqpEwBijNGQ2NXpaFW/7joGzveYkKQUil7iiDHLo6LV71Pc0A==
@@ -2499,21 +2499,21 @@ envinfo@^7.7.3:
   resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-7.7.3.tgz#4b2d8622e3e7366afb8091b23ed95569ea0208cc"
   integrity sha512-46+j5QxbPWza0PB1i15nZx0xQ4I/EfQxg9J8Had3b408SV63nEtor2e+oiY63amTo9KTuh2a3XLObNwduxYwwA==
 
-epubjs@0.3.85:
-  version "0.3.85"
-  resolved "https://registry.yarnpkg.com/epubjs/-/epubjs-0.3.85.tgz#603bfe1cfe925d9a638c51cd564b40a45e7f82b1"
-  integrity sha512-kRq+yR+M3RyD7NoJovrxUXiXfLXqfDMnrfKGL5HS8vdzPlhajhuDxSrnhFOCYlgxEBpvBkYOxigD1cCu+BziOg==
+"epubjs@0.3.87 || ^0.3.89":
+  version "0.3.87"
+  resolved "https://registry.yarnpkg.com/epubjs/-/epubjs-0.3.87.tgz#0a2a94e59777e04548deff49a1c713ccbf3378fc"
+  integrity sha512-UlzXj04JQaUJ4p6ux/glQcVC4ayBtnpHT7niw4ozGy8EOQTAr8+/z7UZEHUmqQj4yHIoPYC4qGXtmzNqImWx1A==
   dependencies:
-    "@types/jszip" "^3.1.4"
+    "@types/jszip" "^3.4.1"
     "@types/localforage" "0.0.34"
     event-emitter "^0.3.5"
-    jszip "^3.1.5"
-    localforage "^1.7.2"
-    lodash "^4.17.10"
+    jszip "^3.4.0"
+    localforage "^1.7.3"
+    lodash "^4.17.15"
     marks-pane "^1.0.9"
     path-webpack "0.0.3"
     stream-browserify "^2.0.1"
-    url-polyfill "^1.1.3"
+    url-polyfill "^1.1.9"
     xmldom "^0.1.27"
 
 epubjs@latest:
@@ -4124,7 +4124,7 @@ loader-utils@^2.0.0:
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
-localforage@*, localforage@^1.2.10, localforage@^1.7.2, localforage@^1.7.3:
+localforage@*, localforage@^1.2.10, localforage@^1.7.3:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.9.0.tgz#f3e4d32a8300b362b4634cc4e066d9d00d2f09d1"
   integrity sha512-rR1oyNrKulpe+VM9cYmcFn6tsHuokyVHFaCM3+osEmxaHTbEk8oQu6eGDfS6DQLWi/N67XRmB8ECG37OES368g==
@@ -4161,7 +4161,7 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -6418,7 +6418,7 @@ url-parse@^1.4.3, url-parse@^1.4.7:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-url-polyfill@^1.1.3:
+url-polyfill@^1.1.9:
   version "1.1.12"
   resolved "https://registry.yarnpkg.com/url-polyfill/-/url-polyfill-1.1.12.tgz#6cdaa17f6b022841b3aec0bf8dbd87ac0cd33331"
   integrity sha512-mYFmBHCapZjtcNHW0MDq9967t+z4Dmg5CJ0KqysK3+ZbyoNOWQHksGCTWwDhxGXllkWlOc10Xfko6v4a3ucM6A==
